@@ -3,7 +3,6 @@
 
 Fine-tunes GPT-2 Small on a machine learning question-and-answer dataset, then tests whether the model really adapted to the domain using five independent metrics, each with a pass threshold fixed before evaluation.
 
-Master's project (DSC 550), University of Massachusetts Dartmouth, Spring 2026. Built by myself under the Advisor: Dr. Amir Akhavan Masoumi.
 
 ## Results
 
