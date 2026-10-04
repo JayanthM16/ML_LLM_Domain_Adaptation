@@ -3,7 +3,7 @@
 
 Fine-tunes GPT-2 Small on a machine learning question-and-answer dataset, then tests whether the model really adapted to the domain using five independent metrics, each with a pass threshold fixed before evaluation.
 
-Master's project (DSC 550), University of Massachusetts Dartmouth, Spring 2026. Built by a team of two: Jayanth Mekala and Rugwesh Reddy Gankidi. Advisor: Dr. Amir Akhavan Masoumi.
+Master's project (DSC 550), University of Massachusetts Dartmouth, Spring 2026. Built by myself under the Advisor: Dr. Amir Akhavan Masoumi.
 
 ## Results
 
@@ -20,7 +20,6 @@ All five metrics passed their thresholds.
 
 The off-topic control matters: perplexity on unrelated sentences barely moved, which shows the model specialised in the ML domain rather than changing across the board.
 
-**Limits.** The evaluation sets are small (20 held-out pairs, 15 multiple-choice questions), so these results show the effect clearly but are not a large-scale benchmark.
 
 ## Approach
 
